@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.Core", "MovieCollection.Core.csproj", "{5329405B-1F62-407A-B54E-C0968C48D458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.ConsoleUI", "..\MovieCollection.ConsoleUI\MovieCollection.ConsoleUI.csproj", "{C45FB0FB-B215-46AE-8C11-1AEF339AE9C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5329405B-1F62-407A-B54E-C0968C48D458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5329405B-1F62-407A-B54E-C0968C48D458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5329405B-1F62-407A-B54E-C0968C48D458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5329405B-1F62-407A-B54E-C0968C48D458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45FB0FB-B215-46AE-8C11-1AEF339AE9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45FB0FB-B215-46AE-8C11-1AEF339AE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45FB0FB-B215-46AE-8C11-1AEF339AE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45FB0FB-B215-46AE-8C11-1AEF339AE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ABBB12C-75E4-45A8-979B-7E87DB435E4C}
+	EndGlobalSection
+EndGlobal
