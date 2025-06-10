@@ -4,9 +4,9 @@ namespace MovieCollection.Core.Models
 {
     public class Documentary : Movie
     {
-        public override Category GetCategory()
+        public override Genre GetGenre()
         {
-            return Category.Documentary;
+            return Genre.Documentary;
         }
 
         public override string GetSummary()

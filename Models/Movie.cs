@@ -5,7 +5,7 @@ namespace MovieCollection.Core.Models
     public abstract class Movie
     {
         public string Title { get; set; }
-        public Category Category { get; set; }
+        public Genre Genre { get; set; }
         public int ReleaseYear { get; set; }
         public string Director { get; set; }
         public Reviews Reviews { get; set; }
@@ -14,9 +14,9 @@ namespace MovieCollection.Core.Models
 
         public abstract string GetSummary();
 
-        public virtual Category GetCategory()
+        public virtual Genre GetGenre()
         {
-            return Category.Unknown;
+            return Genre.Unknown;
         }
     }
 }

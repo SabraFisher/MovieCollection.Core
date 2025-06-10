@@ -4,16 +4,14 @@ namespace MovieCollection.Core.Models
 {
     public class FeatureFilm : Movie
     {
-        public override Category GetCategory()
+        public override Genre GetGenre()
         {
-            return Category.FeatureFilm;
+            return Genre.FeatureFilm;
         }
 
         public override string GetSummary()
         {
             return $"{Title} is a feature film directed by {Director}, released in {ReleaseYear}.";
         }
-
-        public override 
     }
 }

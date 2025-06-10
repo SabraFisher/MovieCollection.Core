@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieCollection.Core.Enums
 {
-    public enum Category
+    public enum Genre
     {
         Unknown,
         Action,
