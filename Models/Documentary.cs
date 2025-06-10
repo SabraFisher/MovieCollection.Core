@@ -11,7 +11,7 @@ namespace MovieCollection.Core.Models
 
         public override string GetSummary()
         {
-            return $"{Title} is a documentary directed by {Director}, released in {ReleaseYear}.";
+            return $"{Title} is a Documentary released in {ReleaseYear} directed by {Director}. It is {Duration} minutes long.";
         }
     }
 }
