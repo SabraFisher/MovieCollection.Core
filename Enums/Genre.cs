@@ -8,13 +8,13 @@ namespace MovieCollection.Core.Enums
 {
     public enum Genre
     {
-        Unknown,
-        Action,
-        Comedy,
-        Drama,
-        Horror,
-        SciFi,
-        Documentary,
-        FeatureFilm
+        unknown,
+        action,
+        comedy,
+        drama,
+        horror,
+        sciFi,
+        documentary,
+        featurefilm
     }
 }

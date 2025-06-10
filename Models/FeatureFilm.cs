@@ -6,7 +6,7 @@ namespace MovieCollection.Core.Models
     {
         public override Genre GetGenre()
         {
-            return Genre.FeatureFilm;
+            return Genre.featurefilm;
         }
 
         public override string GetSummary()
