@@ -16,7 +16,7 @@ namespace MovieCollection.Core.Models
 
         public virtual Genre GetGenre()
         {
-            return Genre.unknown;
+           return Genre.unknown;
         }
     }
 }
