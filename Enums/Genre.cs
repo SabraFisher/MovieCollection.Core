@@ -13,7 +13,7 @@ namespace MovieCollection.Core.Enums
         comedy,
         drama,
         horror,
-        sciFi,
+        scifi,
         documentary,
         featurefilm
     }

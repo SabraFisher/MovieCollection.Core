@@ -11,7 +11,7 @@ namespace MovieCollection.Core.Models
 
         public override string GetSummary()
         {
-            return $"{Title} is Feature Film released in {ReleaseYear} directed by {Director}. It is {Duration} minutes long.";
+            return $"Feature Film: {Title} - Released in: {ReleaseYear} - directed by {Director}. It is {Duration} minutes long.";
         }
     }
 }
