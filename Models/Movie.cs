@@ -8,6 +8,7 @@ namespace MovieCollection.Core.Models
         public Genre Genre { get; set; }
         public int ReleaseYear { get; set; }
         public string? Director { get; set; }
+        public int Duration { get; set; }
         public Reviews Reviews { get; set; }
         public Ratings Ratings { get; set; }
         public int Duration { get; set; }
