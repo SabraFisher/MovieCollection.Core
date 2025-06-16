@@ -11,7 +11,6 @@ namespace MovieCollection.Core.Models
         public int Duration { get; set; }
         public Reviews Reviews { get; set; }
         public Ratings Ratings { get; set; }
-        public int Duration { get; set; }
 
         public abstract string GetSummary();
 
